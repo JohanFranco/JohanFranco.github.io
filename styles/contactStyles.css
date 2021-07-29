@@ -1,0 +1,112 @@
+body {
+    font-family: "Roboto", sans-serif;
+   
+    line-height: 1.9;
+    color: #8c8c8c; 
+   
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  display: block;
+  background-image: url("../Img/forest.jpg");
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  
+ 
+  
+  .text-black {
+    color: #000; }
+  
+  .content {
+
+    padding: 7rem 0; 
+    z-index: 2;
+   height: 90%;
+    
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 900; }
+  
+  .form-control {
+    height: 80%;
+    border: none;    
+     background: rgba(0, 0, 0, 0.5);
+    background: #f3f3f3; }
+
+    .form-control:active, .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #000;
+      background: #f3f3f3; }
+  
+  .col-form-label {
+    color: #000; }
+  
+  .btn, .form-control, .custom-select {
+    height: 50px; }
+  
+  .custom-select:active, .custom-select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000; }
+  
+  .bt {
+    background-color: #965695; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-self: center;
+
+     }
+     .bt:hover{
+       transition: 0.5s;
+       background: #0e0d15;
+     }
+    
+  
+  
+   
+  
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000; }
+  .form-group{
+      margin-bottom: 30px;
+  }
+
+  

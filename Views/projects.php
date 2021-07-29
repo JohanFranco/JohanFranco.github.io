@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK REL=StyleSheet HREF="./styles/projecStyles.css" TYPE="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Projects</title>
+</head>
+<body>
+    <div class="containercard">
+        
+            
+        
+        <div class="box-card">
+            <div class="imgbox">
+                <img src="./Img/forest.jpg" alt="">
+            </div>
+                <div class="comtemt">
+             
+               <h4>GYM WEB</h4>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis a 
+                   suscipit deleniti totam nesciunt aspernatur placeat tenetur in pariatur quas.</p>
+                   <a href="" id="btn">Visit</a>
+                </div>
+        </div>
+
+
+        <div class="box-card">
+            <div class="imgbox">
+                <img src="./Img/forest.jpg" alt="">
+            </div>
+                <div class="comtemt">
+             
+               <h4>STORE WEB</h4>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis a 
+                   suscipit deleniti totam nesciunt aspernatur placeat tenetur in pariatur quas.</p>
+                   <a href="" id="btn">Visit</a>
+                </div>
+        </div>
+
+
+        <div class="box-card ">
+            <div class="imgbox">
+                <img src="./Img/forest.jpg" alt="">
+            </div>
+                <div class="comtemt">
+             
+               <h4>GAMES WEB</h4>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis a 
+                   suscipit deleniti totam nesciunt aspernatur placeat tenetur in pariatur quas.</p>
+            <a href="" id="btn">Visit</a>
+            
+                </div>
+        </div>
+        </div>
+ 
+</body>
+</html>

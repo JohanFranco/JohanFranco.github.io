@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <LINK REL=StyleSheet HREF="./styles/headerStyles.css" TYPE="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar fixed-top"  >
+    <div class="wrapper">
+        <div class="menu">
+            <a href="#head" class="item link-light">Home</a>
+            <a href=""  class="item link-light">Projects</a>
+            <a href="#about" class="item link-light">About</a>
+            <a href="Views/contact.php" class="item link-light">Contact</a>
+          
+           
+        </div>
+    </div>
+    </nav>
+</body>
+</html>
