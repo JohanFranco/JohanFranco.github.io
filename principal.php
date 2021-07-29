@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK REL=StyleSheet HREF="PrincipalStyles.css" TYPE="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a865ee7fb2.js" crossorigin="anonymous"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+
+    <title>Johan Franco </title>
+</head>
+<body>
+    
+   <div class="header" id="head">
+
+   <?php include("Views/header.php") ?>
+  
+
+       <div class="header-text">
+           <div class="content">
+              
+            
+              <div class="wrapp">
+                  <div class="photo-wrap">
+                      <div class="inside-text">
+                          <h3>Johan Franco</h3>
+                          <p>I am multiplatform software developer,
+                              I am knowledgeable in web development,
+                               different types of databases and mobile development.</p>
+                               
+                      </div>
+                      <div class="imgBox"></div>
+                  </div>
+              </div>
+             
+               
+               <div class="box">
+    <div class="single-box">
+    <a href="https://www.facebook.com/johan.franco.313371/" class="link-light">
+        <div class="icon"><i class="fa fa-facebook"></i></div>
+        <span>Like</span>
+        </a>
+    </div>
+    <div class="single-box">
+    <a href="https://github.com/JohanFranco" class="link-light">
+        <div class="icon"><i class="fab fa-github"></i></div>
+        <span>Follow</span>
+        </a>
+    </div>
+    <div class="single-box">
+    <a href="https://www.linkedin.com/in/johan-ismael-franco-arriaga-137183218/" class="link-light">
+        <div class="icon"><i class="fa fa-linkedin-square"></i></div>
+        <span>Subscribe</span>
+        </a>
+    </div>
+</div>
+
+           </div>
+       </div>
+
+<div class="music">
+          <i class="fas fa-volume-mute" id="icon-play"></i>
+</div>
+
+<audio src="Media/music.mp3" id="mySong" type="audio/mp3">
+
+</audio>
+
+   </div>
+
+<div class="project">
+    <?php include("Views/projects.php");?>
+</div>
+
+<div class="about" id="about">
+<?php include("Views/about.php"); ?>
+</div>
+
+
+<?php include("Views/footer.php")?>
+<script>
+    var mySong = document.getElementById("mySong");
+    var icon = document.getElementById("icon-play");
+
+    icon.onclick = function(){
+
+        if(mySong.paused){
+        mySong.play();
+        
+        icon.className="fas fa-volume-up";
+        }else{
+            mySong.pause();
+            icon.className="fas fa-volume-mute";
+
+        }
+    }
+</script>
+
+</body>
+</html>
