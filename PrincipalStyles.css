@@ -265,7 +265,7 @@ font-weight: 600;
     transform-origin: 95% 40%;
     transition: all .9s ease-in-out;
     transform: translate(0,0,0);
-    background-image: url(img/perfiljohan.jpg);
+    background-image: url(Img/perfiljohan.jpg);
     z-index: 12;
     -webkit-background-size:cover;
     background-size: cover;
