@@ -2,14 +2,22 @@
 .cont{
     background-image: linear-gradient(#5e2d4f, #2e0e36);
     padding-top: 60px;
-
+   align-self: center;
+    width: 100%;
+   padding: 0;
+   align-items: center;
+   align-content: center;
 }
 .boxes{
- 
+    align-items: center;
+    align-self: center;
+    align-content: center;
+   margin: 0;
     text-align: center;
     width: 25%;
     margin-bottom: 80px;
     text-decoration: none;
+  display:inline-table;
   
     
 }
